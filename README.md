@@ -4,16 +4,16 @@ This simple guide lists the install commands for my development tools in Linux U
 
 
 ### General
-1. Brave
+### Brave
 ```
 sudo apt update
 sudo apt install brave-browser
 ```
 
 ### IDEs and Development Tools
-1. Jetbrains Toolbox (https://www.jetbrains.com/toolbox-app/)
+#### Jetbrains Toolbox (https://www.jetbrains.com/toolbox-app/)
 
-2. Anaconda (https://docs.anaconda.com/anaconda/install/linux/)
+#### Anaconda (https://docs.anaconda.com/anaconda/install/linux/)
  - Prerequisites (Debian)
  ```
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
@@ -23,7 +23,7 @@ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 
  ```
  shasum -a 256 ~/Downloads/Anaconda3-2022.05-Linux-x86_64.sh 
  ```
- - Intall
+ - Install
  ```
  bash ~/Downloads/Anaconda3-2022.05-Linux-x86_64.sh 
  ```
@@ -34,7 +34,7 @@ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 
  conda create --name my-env python=3.9
  ```
 
-3. Git
+#### Git
 ```
 sudo apt update
 sudo apt install git
@@ -43,7 +43,7 @@ git config --global user.name "Mamerto Fabian Jr"
 git config --global user.email "mamerto@codefrost.com"
 ```
 
-4. Github CLI
+#### Github CLI
 ```
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
@@ -52,7 +52,7 @@ sudo apt update
 sudo apt install gh
 ```
 
-5. Docker Engine and Docker Desktop
+#### Docker Engine and Docker Desktop
 ```
 sudo apt purge docker-desktop
 sudo apt-get update
@@ -76,7 +76,7 @@ newgrp docker
  systemctl --user start docker-desktop
  ```
 
-6. NVM
+#### NVM
 ```
 sudo apt update && sudo apt install curl -y
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
@@ -90,14 +90,14 @@ nvm -v
 node -v
 ```
 
-7. .NET (optional)
+#### .NET (optional)
 ```
 sudo apt update && sudo apt install dotnet6
 dotnet
 ```
 
 ### Others
-1. Hubstaff (https://app.hubstaff.com/download/linux)
+#### Hubstaff (https://app.hubstaff.com/download/linux)
 ```
 bash ~/Downloads/Hubstaff-1.6.7-5c6fee47.sh 
 ```
