@@ -90,7 +90,7 @@ nvm -v
 node -v
 ```
 
-### .NET (optional)
+### .NET
 ```
 sudo apt update && sudo apt install dotnet6
 dotnet
@@ -102,7 +102,8 @@ dotnet
 bash ~/Downloads/Hubstaff-1.6.7-5c6fee47.sh 
 ```
 
-## Keychron Keyboard Function Keys fix
+## Customizations
+### Keychron Keyboard Function Keys fix
 ```
 echo "options hid_apple fnmode=2" | sudo tee /etc/modprobe.d/hid_apple.conf
 sudo update-initramfs -u -k all
