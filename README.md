@@ -13,7 +13,7 @@ sudo apt install brave-browser
 ## IDEs and Development Tools
 ### Jetbrains Toolbox (https://www.jetbrains.com/toolbox-app/)
 
-#### Anaconda (https://docs.anaconda.com/anaconda/install/linux/)
+### Anaconda (https://docs.anaconda.com/anaconda/install/linux/)
  - Prerequisites (Debian)
  ```
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
