@@ -10,8 +10,8 @@ sudo apt update
 sudo apt install brave-browser
 ```
 
-### IDEs and Development Tools
-#### Jetbrains Toolbox (https://www.jetbrains.com/toolbox-app/)
+## IDEs and Development Tools
+### Jetbrains Toolbox (https://www.jetbrains.com/toolbox-app/)
 
 #### Anaconda (https://docs.anaconda.com/anaconda/install/linux/)
  - Prerequisites (Debian)
