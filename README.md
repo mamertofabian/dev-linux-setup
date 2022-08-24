@@ -4,7 +4,7 @@ This simple guide lists the install commands for my development tools in Linux U
 
 
 ### General
-### Brave
+#### Brave
 ```
 sudo apt update
 sudo apt install brave-browser
