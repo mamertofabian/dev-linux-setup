@@ -1,10 +1,10 @@
-## Linux Development Setup
+# Linux Development Setup
 
 This simple guide lists the install commands for my development tools in Linux Ubuntu-based distros
 
 
-### General
-#### Brave
+## General
+### Brave
 ```
 sudo apt update
 sudo apt install brave-browser
@@ -34,7 +34,7 @@ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 
  conda create --name my-env python=3.9
  ```
 
-#### Git
+### Git
 ```
 sudo apt update
 sudo apt install git
@@ -43,7 +43,7 @@ git config --global user.name "Mamerto Fabian Jr"
 git config --global user.email "mamerto@codefrost.com"
 ```
 
-#### Github CLI
+### Github CLI
 ```
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
@@ -52,7 +52,7 @@ sudo apt update
 sudo apt install gh
 ```
 
-#### Docker Engine and Docker Desktop
+### Docker Engine and Docker Desktop
 ```
 sudo apt purge docker-desktop
 sudo apt-get update
@@ -76,7 +76,7 @@ newgrp docker
  systemctl --user start docker-desktop
  ```
 
-#### NVM
+### NVM
 ```
 sudo apt update && sudo apt install curl -y
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
@@ -90,19 +90,19 @@ nvm -v
 node -v
 ```
 
-#### .NET (optional)
+### .NET (optional)
 ```
 sudo apt update && sudo apt install dotnet6
 dotnet
 ```
 
-### Others
-#### Hubstaff (https://app.hubstaff.com/download/linux)
+## Others
+### Hubstaff (https://app.hubstaff.com/download/linux)
 ```
 bash ~/Downloads/Hubstaff-1.6.7-5c6fee47.sh 
 ```
 
-### Keychron Keyboard Function Keys fix
+## Keychron Keyboard Function Keys fix
 ```
 echo "options hid_apple fnmode=2" | sudo tee /etc/modprobe.d/hid_apple.conf
 sudo update-initramfs -u -k all
