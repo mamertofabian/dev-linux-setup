@@ -101,6 +101,20 @@ dotnet
 ```
 bash ~/Downloads/Hubstaff-1.6.7-5c6fee47.sh 
 ```
+### Sublime Text (https://www.sublimetext.com/docs/linux_repositories.html#apt)
+```
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
+```
+
+### Beyond Compare (https://www.scootersoftware.com/download.php?zz=kb_linux_install)
+```
+wget https://www.scootersoftware.com/bcompare-4.4.3.26655_amd64.deb
+sudo apt update
+sudo apt install ./bcompare-4.4.3.26655_amd64.deb
+```
 
 ## Customizations
 ### Keychron Keyboard Function Keys fix
