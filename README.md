@@ -65,7 +65,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo docker run hello-world
 sudo apt-get update
-sudo apt-get install ~/Downloads/docker-desktop-4.11.0-amd64.deb 
+sudo apt-get install ~/Downloads/docker-desktop-4.11.1-amd64.deb 
 
 sudo groupadd docker
 sudo usermod -aG docker $USER
